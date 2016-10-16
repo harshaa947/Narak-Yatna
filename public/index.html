@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Narak Yatna</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.facedetection.min.js"></script>
+</head>
+<body>
+<form id="uploadimage" enctype="multipart/form-data">
+    <label for ="image_upload">Uploadimage :</label><br>
+    <input name="image_upload" id="image_upload" type="file" multiple accept='image/*' onchange="handlefile(this.files)">
+</form>
+<div id="preview">
+
+</div>
+<div id ="control">
+    <button onclick="punish(0)">Tamisaram</button>
+    <button onclick="punish(1)">Andhatamtrsam (Flogging)</button>
+    <button onclick="punish(2)">Rauravam (Torments of Snakes)</button>
+    <button onclick="punish(3)">Mahararuravam (Death by Snakes)</button>
+    <button onclick="punish(4)"> Kumbhipakam(cooked by oil)</button>
+    <button onclick="punish(5)">Kalasutram  (Hot as hell)</button>
+    <button onclick="punish(6)">Asitapatram(sharp flogging)</button>
+    <button onclick="punish(7)">Sukaramukham(Crushed and tormented)</button>
+    <button onclick="punish(8)">Andhakupam( Attack of the animals)</button>
+    <button onclick="punish(9)">Taptamurti or Agnikundam (Burnt Alive)</button>
+    <button onclick="punish(10)">Krimibhojanam(Food for worms)</button>
+    <button onclick="punish(11)">Salmali(Embracing hot images)</button>
+    <button onclick="punish(12)">Vajrakantakasali or Vajrakandaka (Embracing Sharp images)</button>
+    <button onclick="punish(13)">Vaitarani(River of Filth)</button>
+    <button onclick="punish(14)">Puyodakam (Well of hell)</button>
+    <button onclick="punish(15)">Pranarodham (Piece by Piece)</button>
+    <button onclick="punish(16)">Visasanam(Bashing from Clubs)</button>
+    <button onclick="punish(17)">Lalabhaksam-(River of semen)</button>
+    <button onclick="punish(18)">Sarameyasanam(Torment from dogs)</button>
+    <button onclick="punish(19)">Avichi( turned into dust)</button>
+    <button onclick="punish(20)">Ayahpanam(Drinking of burning substances)</button>
+    <button onclick="punish(21)">Raksobjaksam(Revenge attacks)</button>
+    <button onclick="punish(22)">Sulaprotam(Trident Torture)</button>
+    <button onclick="punish(22)">Ksharakardamam(hanged upside down)</button>
+    <button onclick="punish(23)">Dandasukam(eaten alive)</button>
+    <button onclick="punish(24)">Vatarodham(weapon torture)</button>
+    <button onclick="punish(25)"> Paryavartanakam( torture from birds)</button>
+    <button onclick="punish(26)">Sucimukham(Tortured by needles)</button>
+</div>
+
+<p > size of image : <span id="image_size"></span></p>
+<div id ="imageformat">
+    <span id="pos"></span><br>
+    <canvas width="700" height="500" id="image_toshow" class="mycanv"></canvas>
+    <canvas width="700" height="500" id="format_image" class="mycanv"></canvas>
+</div>
+<button id="detect" onclick="plot()">detect</button>
+</body>
+<script type="text/javascript" src="js/ccv.js"></script>
+<script type="text/javascript" src="js/face.js"></script>
+<script src="js/script.js"></script>
+
+</html>

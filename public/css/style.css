@@ -1,0 +1,33 @@
+#uploadimage{
+
+}
+#preview{
+    position: relative;
+    background-color: black;
+    padding: 5px;
+    width:400px;
+    height:300px;
+    margin:15px;
+    float:left;
+    color:white;
+}
+
+#control{
+    margin:15px;
+
+    padding:10px;
+    background-color: red;
+    height :300px;
+}
+#control  button{
+    padding:5px;
+    border: 1px white;
+    margin: 3px;
+}
+.mycanv{
+    width:500px;
+    height:300px;
+    display: inline-block;
+    border : 5px solid red;
+
+}

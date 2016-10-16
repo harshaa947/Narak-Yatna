@@ -1,0 +1,27 @@
+{
+  "name": "dockerinterface",
+  "version": "1.0.0",
+  "description": "creating containers using docker api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dockerremoteapi",
+    "baadal"
+  ],
+  "author": "Harsh Arya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18",
+    "mongoskin": "^2.1.0",
+    "morgan": "^1.7.0",
+    "body-parser" : "latest",
+    "serve-index" :"latest",
+    "dockerode" :"latest",
+    "errorhandler" : "latest"
+  },
+  "devDependencies": {}
+}
